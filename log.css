@@ -1,0 +1,35 @@
+.img{
+  background-image: url('https://th.bing.com/th?id=OIP.Y1FstaspXDnGyDKZ5mgsPQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+  background-size: cover;
+  height: 100vh;
+}
+
+body{
+  height: 50%;
+}
+
+.simpleLogin form {
+  max-height: 600px;
+  max-width: 400px;
+  margin: auto;
+  background:#fefefd;
+  box-shadow: 0 10px 10px #222;
+}
+.simpleLogin form fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 20px;
+}
+.simpleLogin form legend,
+.simpleLogin form fieldset input {
+  font-family: Open Sans;
+  font-size:15px;
+}
+.simpleLogin form legend {
+    background-color: #8fc400;
+    border-top: 0 none;
+    color: white;
+    display: table-cell;
+    padding: 10px 20px;
+    width: auto;
+}
